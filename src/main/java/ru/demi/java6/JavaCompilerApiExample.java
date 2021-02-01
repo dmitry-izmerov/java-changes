@@ -1,4 +1,4 @@
-package ru.demi.java6.compilerApi;
+package ru.demi.java6;
 
 import javax.tools.ToolProvider;
 import java.io.File;
