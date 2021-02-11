@@ -1,4 +1,4 @@
-package ru.demi.java7.exception;
+package ru.demi.java7;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
