@@ -11,6 +11,7 @@ repositories {
 
 java {
     sourceCompatibility = JavaVersion.VERSION_14
+    modularity.inferModulePath = true
 }
 
 tasks.withType(JavaCompile).each {
@@ -22,6 +23,7 @@ tasks.withType(JavaExec) {
 }
 
 dependencies {
+    implementation group: 'org.slf4j', name: 'slf4j-api', version: '1.7.30'
     implementation group: 'ch.qos.logback', name: 'logback-classic', version: '1.2.3'
 
     testImplementation group: 'junit', name: 'junit', version: '4.12'
