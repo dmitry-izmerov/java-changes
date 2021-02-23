@@ -1,0 +1,7 @@
+#!/usr/bin/java --source 14
+public class ShebangExample {
+
+    public static void main(String[] args) {
+        System.out.println("Running Single-File Source-Code Java Program By Shebang");
+    }
+}
