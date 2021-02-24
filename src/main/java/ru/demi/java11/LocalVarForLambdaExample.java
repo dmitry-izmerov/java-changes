@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Map;
 
 public class LocalVarForLambdaExample {
-    public static final Logger log = LoggerFactory.getLogger(LocalVarForLambdaExample.class);
+    private static final Logger log = LoggerFactory.getLogger(LocalVarForLambdaExample.class);
 
     public static void main(String[] args) {
         List.of(1, 2, 3).forEach((var i) -> log.info("value: {}", i));
