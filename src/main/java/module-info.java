@@ -17,4 +17,5 @@ module ru.demi.java_changes {
     requires java.compiler;
     requires org.slf4j;
     requires java.net.http;
+    requires net.bytebuddy;
 }
